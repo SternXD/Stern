@@ -22,9 +22,6 @@ jobs:
       run: |
         brew update
         brew install --cask teamviewer
-    - name: Enable TeamViewer Screen Recording Permission
-      run: |
-        sudo tccutil --insert com.teamviewer.TeamViewer.Screensharing
     - name: Setup tmate session
       uses: mxschmitt/action-tmate@v2
 
