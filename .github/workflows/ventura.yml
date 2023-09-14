@@ -1,4 +1,4 @@
-name: mac
+name: Ventura
 on: 
   workflow_dispatch:
 defaults:
